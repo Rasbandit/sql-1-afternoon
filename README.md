@@ -18,11 +18,21 @@ In this project we will be practicing inserting and querying data using SQL. We'
 
 <details>
     <summary>Detailed Images</summary>
-    <img src="/readme_assets/create-database.jpg">
+    <p align="center">
+        <img src="/readme_assets/create-database.jpg">
+    </p>
+     <p align="center">
     <img src="/readme_assets/create-name.jpg">
+    </p>
+     <p align="center">
     <img src="/readme_assets/restore-1.jpg">
+    </p>
+     <p align="center">
     <img src="/readme_assets/restore-2.jpg">
+    </p>
+     <p align="center">
     <img src="/readme_assets/restore-3.jpg">
+    </p>
 </details>
 
 Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://sqlbolt.com/) as resources for the missing keywords you'll need.
