@@ -21,15 +21,19 @@ In this project we will be practicing inserting and querying data using SQL. We'
     <p align="center">
         <img src="/readme_assets/create-database.jpg">
     </p>
+    <br/>
      <p align="center">
     <img src="/readme_assets/create-name.jpg">
     </p>
+    <br/>
      <p align="center">
     <img src="/readme_assets/restore-1.jpg">
     </p>
+    <br/>
      <p align="center">
     <img src="/readme_assets/restore-2.jpg">
     </p>
+    <br/>
      <p align="center">
     <img src="/readme_assets/restore-3.jpg">
     </p>
