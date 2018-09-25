@@ -4,7 +4,26 @@
 
 In this project we will be practicing inserting and querying data using SQL. We'll make use of an existing database called DVD rental that can be downloaded here <a href="http://www.postgresqltutorial.com/postgresql-sample-database/">Click me</a>
 
-On the left are the Tables with their fields, the right is where we will be writing our queries, and the bottom is where we will see our results.
+## Setup
+
+- Once you have downloaded the `.zip` extract the file from it, and it should be a `.tar` file.
+- Right click your local database and create a new database called dvd_rental.
+- Then right click your new `dvd_rental` database and select restore.
+- Make sure the format is `Custom or tar` then select the button on the right of Filename with the three dots `...` inside it.
+- This will open a file explorer, you will need to navigate to where you extracted the `dvd_rental.tar` file.
+    - Make sure you change the Format: to all files in the bottom right.
+- Once you have found your file press select
+- Then press restore.
+- you should now have all the tables you need for todays afternoon project.
+
+<details>
+    <summary>Detailed Images</summary>
+    <img src="/readme_assets/create_database.jpg">
+    <img src="/readme_assets/create_name.jpg">
+    <img src="/readme_assets/restore-1.jpg">
+    <img src="/readme_assets/restore-2.jpg">
+    <img src="/readme_assets/restore-3.jpg">
+</details>
 
 Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://sqlbolt.com/) as resources for the missing keywords you'll need.
 
