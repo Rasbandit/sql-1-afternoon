@@ -39,6 +39,7 @@ In this project we will be practicing inserting and querying data using SQL. We'
     </p>
 </details>
 
+<br/>
 Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://sqlbolt.com/) as resources for the missing keywords you'll need.
 
 ## Table - people
