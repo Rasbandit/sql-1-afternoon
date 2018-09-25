@@ -18,7 +18,7 @@ In this project we will be practicing inserting and querying data using SQL. We'
 
 <details>
     <summary>Detailed Images</summary>
-    <img src="/readme_assets/create_database.jpg">
+    <img src="/readme_assets/create-database.jpg">
     <img src="/readme_assets/create-name.jpg">
     <img src="/readme_assets/restore-1.jpg">
     <img src="/readme_assets/restore-2.jpg">
