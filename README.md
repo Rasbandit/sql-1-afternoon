@@ -74,7 +74,7 @@ Use [www.sqlteaching.com](http://www.sqlteaching.com/) or [sqlbolt.com](http://s
 <summary> <code> #1 </code> </summary>
 
 ```sql
-CREATE TABLE person ( ID SERIAL PRIMARY KEY, name string, age integer, height integer, city string, FavoriteColor string );
+CREATE TABLE person ( ID SERIAL PRIMARY KEY, name string, age integer, height integer, city string, favorite_color string );
 ```
 
 </details>
@@ -164,7 +164,7 @@ SELECT * FROM person WHERE age != 27;
 <summary> <code> #10 </code> </summary>
 
 ```sql
-SELECT * FROM person WHERE FavoriteColor != "red";
+SELECT * FROM person WHERE favorite_color != 'red';
 ```
 
 </details>
@@ -174,7 +174,7 @@ SELECT * FROM person WHERE FavoriteColor != "red";
 <summary> <code> #11 </code> </summary>
 
 ```sql
-SELECT * FROM person WHERE FavoriteColor != "red" AND FavoriteColor != "blue";
+SELECT * FROM person WHERE favorite_color != 'red' AND favorite_color != "blue";
 ```
 
 </details>
@@ -184,7 +184,7 @@ SELECT * FROM person WHERE FavoriteColor != "red" AND FavoriteColor != "blue";
 <summary> <code> #12 </code> </summary>
 
 ```sql
-SELECT * FROM person WHERE FavoriteColor = "orange" OR FavoriteColor = "green";
+SELECT * FROM person WHERE favorite_color = 'orange' OR favorite_color = 'green';
 ```
 
 </details>
@@ -194,7 +194,7 @@ SELECT * FROM person WHERE FavoriteColor = "orange" OR FavoriteColor = "green";
 <summary> <code> #13 </code> </summary>
 
 ```sql
-SELECT * FROM person WHERE FavoriteColor IN ( "orange", "green", "blue" );
+SELECT * FROM person WHERE favorite_color IN ( 'orange', 'green', 'blue' );
 ```
 
 </details>
@@ -204,7 +204,7 @@ SELECT * FROM person WHERE FavoriteColor IN ( "orange", "green", "blue" );
 <summary> <code> #14 </code> </summary>
 
 ```sql
-SELECT * FROM person WHERE FavoriteColor IN ( "yellow", "purple" )
+SELECT * FROM person WHERE favorite_color IN ( 'yellow', 'purple' )
 ```
 
 </details>
@@ -245,7 +245,7 @@ CREATE TABLE order ( person_id integer, product_price string, product_price floa
 <summary> <code> #2 </code> </summary>
 
 ```sql
-INSERT INTO order ( person_id, product_price, product_price, quantity ) VALUES ( 0, "Product", 12.50, 2 );
+INSERT INTO order ( person_id, product_price, product_price, quantity ) VALUES ( 0, 'Product', 12.50, 2 );
 ```
 
 </details>
